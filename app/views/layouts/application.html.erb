@@ -21,11 +21,15 @@
     </script>
   </head>
   <body>
+
+
+    <%= render 'shared/application_nav' %>
+
     <%= render "shared/devise_links" %>
-    <main><%= yield %></main>
 
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
+
     <%= yield %>
 
   </body>

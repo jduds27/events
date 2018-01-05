@@ -51,10 +51,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'faker', '~> 1.6', '>= 1.6.6'
 gem 'devise', '~> 4.4'
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
-
-
 gem 'materialize', '~> 0.4.4'
 gem 'materialize-sass'
 gem 'material_icons', '~> 2.2', '>= 2.2.1'

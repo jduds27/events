@@ -1,9 +1,22 @@
-<div>
-  <h2><%= event.title %></h2>
-  <!--<%= image_tag "#{event.image}" %> -->
-  <%= image_tag "#{event.thumb_image}" %>
-  <p><%= event.description %></p>
-  <%= "Event took place #{distance_of_time_in_words(event.date)} ago." %>
-  <p><%= "Event took place at #{event.location}." %></p>
-  <hr>
+<div class="album text-muted">
+  <div class="container">
+    <div class="card">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="column-left">
+            <h3><%= event.title %></h3>
+            <%= image_tag "#{event.thumb_image}" %>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="column-right">
+            <p><%= event.description %></p>
+            <%= "Event took place #{distance_of_time_in_words(event.date)} ago." %>
+            <p><%= "Event took place at #{event.location}." %></p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
 </div>

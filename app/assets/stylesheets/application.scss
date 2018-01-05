@@ -1,3 +1,4 @@
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -15,10 +16,6 @@
  */
 
  @import "materialize";
-
- body {
-   background-color: #1C1C1C;
- }
 
  .card.horizontal {
    height: 100%;
@@ -43,3 +40,67 @@
    border-radius: 1em;
    padding-top: 0px;
  }
+
+ .masthead clearfix {
+   background: #36e29d;
+ }
+
+.event-map {
+  width: 95%;
+
+}
+
+.event-main-image {
+  width: 100%;
+}
+
+.show-top-row {
+  // max-height: 400px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  background-color: #0f2937;
+
+}
+
+#map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-wrapper {
+  padding: 0px;
+  margin:0px;
+  background-color: #0f2937;
+}
+
+.show-row {
+  margin: 0px;
+  padding: 0px;
+}
+
+.show-hide-over {
+  overflow:hidden;
+}
+
+#show-info {
+  background-color: #0f2937;
+  color: white;
+  padding: 15px;
+}
+
+.show-title-span {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3em;
+  color: #34a853;
+  font-weight: 800;
+}
+
+.nav-masthead {
+   background-color: black;
+}
